@@ -479,12 +479,11 @@ table {
     float: left;
     min-height: 1px;
     position: relative;
-    width: 292.5px;
+    width: 25%;
 }
 .fpoly_counter_item{
     display: flex;
     flex-flow: row wrap;
-    left: 10px;
     position: relative;
     text-align: center;
 }
@@ -513,13 +512,14 @@ table {
 .fpoly_count{
     color: #27323d;
     font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     line-height: 32px;
     margin-bottom: 3px;
 }
 .fpoly_info{
     color: #848d95;
-    font-size: 16px;
+    font-size: 1.05vw;
     font-weight: 700;
     line-height: 22px;
 }
