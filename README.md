@@ -1,11 +1,9 @@
-# Đây là bài tập Assignment Web
-`Được thiết kế bởi Hoàng Duy (DuyPlus)`
+## Đây là bài tập Assignment Web
+#### `Được thiết kế bởi Hoàng Duy (DuyPlus)`
+#### `MSSV: PS18293`
+#### `Khoá K16`
 
-`MSSV: PS18293`
-
-`K16315`
-
-# Contact
+## Contact
 `Facebook`: <https://facebook.com/duyplusx>
 
 `Instagram`: <https://instagram.com/nghdyyy>
