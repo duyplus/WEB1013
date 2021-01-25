@@ -523,3 +523,42 @@ table {
     font-weight: 700;
     line-height: 22px;
 }
+.doitac{
+    clear: both;
+}
+.doitac p {
+    padding-top: 50px;
+    font-size: 30px;
+    color: #192041;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.doitac p:before {
+    margin-top: 30px;
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #f7941d;
+    width: 60px;
+    bottom: 0;
+}
+.carousel {
+    width: 70%;
+    margin: 0px auto;
+}
+.slick-slide {
+    margin: 10px;
+}
+.slick-slide img {
+    width: 100%;
+    margin: 0 25px;
+    object-fit: cover;
+    height: 70px;
+    padding-left: 30px;
+}

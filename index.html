@@ -8,14 +8,17 @@
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
     <!-- Meta Icon -->
-    <link href="https://www.hoangduy.my.id/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon"/>
     <!-- Meta Link -->
     <link href="https://hoangduyit.me" rel="canonical"/>
     <link href="https://hoangduyit.me" hreflang="x-default" rel="alternate"/>
     <link href="style.css?v=220121" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="style.js" type="text/javascript"></script>
 </head>
 <body>
@@ -41,14 +44,14 @@
         <div class="dropdown">
             <button class="dropbtn hvr-underline-from-left">Giới thiệu <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
-                <a class="hvr-overline-from-right" href="about.html">Giới thiệu chung</a>
-                <a class="hvr-overline-from-right" href="diagram.html">Sơ đồ tổ chức</a>
-                <a class="hvr-overline-from-right" href="library.html">Thư viện</a>
+                <a class="hvr-overline-from-right" href="page/about.html">Giới thiệu chung</a>
+                <a class="hvr-overline-from-right" href="page/diagram.html">Sơ đồ tổ chức</a>
+                <a class="hvr-overline-from-right" href="page/library.html">Thư viện</a>
             </div>
         </div>
-        <a class="hvr-underline-from-left" href="contact.html">Liên hệ</a>
-        <a class="hvr-underline-from-left" href="feedback.html">Góp ý</a>
-        <a class="hvr-underline-from-left" href="faq.html">Hỏi & Đáp</a>
+        <a class="hvr-underline-from-left" href="page/contact.html">Liên hệ</a>
+        <a class="hvr-underline-from-left" href="page/feedback.html">Góp ý</a>
+        <a class="hvr-underline-from-left" href="page/faq.html">Hỏi & Đáp</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuFunction()">&#9776;</a>
     </div>
     <div class="fpoly_counter hidden-mobile">
@@ -99,10 +102,10 @@
             <div class="post-article" style="padding: 15px 0px;">
                 <div class="mask1">
                     <div class="thumb1">
-                        <a href="chinh-sach-uu-dai.html"><img class="image hvr-grow" src="images/CoverFB.png"/></a>
+                        <a href="page/chinh-sach-uu-dai.html"><img class="image hvr-grow" src="images/CoverFB.png"/></a>
                     </div>
                     <div class="list-post" style="width: 100%;margin-left: 0px;text-align: center;">
-                        <div class="title" style="padding: 15px 0 0 0;"><a href="chinh-sach-uu-dai.html">Nhập học ngay – Quà liền tay!</a></div>
+                        <div class="title" style="padding: 15px 0 0 0;"><a href="page/chinh-sach-uu-dai.html">Nhập học ngay – Quà liền tay!</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Cao đẳng FPT Polytechnic triển khai hàng loạt ưu đãi “khủng” dành cho tân sinh viên nhập học trong tháng 7 – 8/2020 tới đây.
                             Theo đó, tân sinh viên khi nhập học tại Cao đẳng FPT Polytechnic sẽ được miễn lệ phí nhập học, nhận ngay một voucher trị giá 1 triệu đồng khi mua laptop tại FPT Shop và bộ quà tặng siêu hot của FPT Polytechnic....</div>
@@ -113,10 +116,10 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="quy-hoc-bong.html"><img class="image hvr-grow" src="images/hocbong.jpg"/></a>
+                        <a href="page/quy-hoc-bong.html"><img class="image hvr-grow" src="images/hocbong.jpg"/></a>
                     </div>
                     <div class="list-post">
-                        <div class="title"><a href="quy-hoc-bong.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
+                        <div class="title"><a href="page/quy-hoc-bong.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Nhằm hỗ trợ các bạn trẻ khởi nghiệp, vững vàng hơn khi bước vào nghề, bước vào cuộc sống, Cao đẳng thực hành FPT Polytechnic triển khai Quỹ học bổng “FPOLY khởi nghiệp” với tổng trị giá 300 triệu đồng....</div>
                         </div>
@@ -126,10 +129,10 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="huong-dan-nhap-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hdannhoc1.png"/></a>
+                        <a href="page/huong-dan-nhap-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hdannhoc1.png"/></a>
                     </div>
                     <div class="list-post">
-                        <div class="title"><a href="huong-dan-nhap-hoc.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
+                        <div class="title"><a href="page/huong-dan-nhap-hoc.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Nhằm hỗ trợ các bạn trẻ khởi nghiệp, vững vàng hơn khi bước vào nghề, bước vào cuộc sống, Cao đẳng thực hành FPT Polytechnic triển khai Quỹ học bổng “FPOLY khởi nghiệp” với tổng trị giá 300 triệu đồng....</div>
                         </div>
@@ -139,10 +142,10 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/nganhhoc1.jpg"/></a>
+                        <a href="page/nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/nganhhoc1.jpg"/></a>
                     </div>
                     <div class="list-post">
-                        <div class="title"><a href="nganh-hoc.html">Chương trình đào tạo tại trường Cao đẳng FPT Polytechnic</a></div>
+                        <div class="title"><a href="page/nganh-hoc.html">Chương trình đào tạo tại trường Cao đẳng FPT Polytechnic</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Khối Ngành: DU LỊCH - NHÀ HÀNG - KHÁCH SẠN, Khối Ngành: KINH TẾ, Khối Ngành: CÔNG NGHỆ THÔNG TIN, Khối Ngành: CƠ KHÍ, (ĐIỆN) TỰ ĐỘNG HOÁ...</div>
                         </div>
@@ -152,10 +155,10 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hocphi.jpg"/></a>
+                        <a href="page/nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hocphi.jpg"/></a>
                     </div>
                     <div class="list-post">
-                        <div class="title"><a href="hoc-phi.html">Học phí tại Cao đẳng thực hành FPT Polytechnic</a></div>
+                        <div class="title"><a href="page/hoc-phi.html">Học phí tại Cao đẳng thực hành FPT Polytechnic</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Thực hiện chính sách đào tạo hướng tới đại chúng, Trường Cao đẳng FPT Polytechnic đưa ra mức học phí cao đẳng hợp lý với chất lượng đào tạo quốc tế nhằm đáp ứng yêu cầu của đa số sinh viên hiện nay....</div>
                         </div>
@@ -173,12 +176,36 @@
     </div>
     <div class="aside">
         <div class="sidebar">
-            <a class="active hvr-bounce-to-right" href="hoc-phi.html">Học phí</a>
-            <a class="hvr-overline-reveal" href="nganh-hoc.html">Ngành học</a>
-            <a class="hvr-overline-reveal" href="chinh-sach-uu-dai.html">Chính sách ưu đãi</a>
-            <a class="hvr-overline-reveal" href="huong-dan-nhap-hoc.html">Hướng dẫn nhập học</a>
-            <a class="hvr-overline-reveal" href="quy-hoc-bong.html">Quỹ học bổng khởi nghiệp</a>
+            <a class="active hvr-bounce-to-right" href="page/hoc-phi.html">Học phí</a>
+            <a class="hvr-overline-reveal" href="page/nganh-hoc.html">Ngành học</a>
+            <a class="hvr-overline-reveal" href="page/chinh-sach-uu-dai.html">Chính sách ưu đãi</a>
+            <a class="hvr-overline-reveal" href="page/huong-dan-nhap-hoc.html">Hướng dẫn nhập học</a>
+            <a class="hvr-overline-reveal" href="page/quy-hoc-bong.html">Quỹ học bổng khởi nghiệp</a>
         </div>
+    </div>
+</div>
+<div class="doitac">
+    <p>Đối tác</p>
+    <div class="carousel">
+        <img src="icons/allgrowlabo.png" style="width: 221px;"/>
+        <img src="icons/benthanhtourist.png" style="width: 221px;"/>
+        <img src="icons/canon.jpg" style="width: 221px;"/>
+        <img src="icons/carevelle.jpg" style="width: 221px;"/>
+        <img src="icons/cleverads.jpg" style="width: 221px;"/>
+        <img src="icons/coccoc.jpg" style="width: 221px;"/>
+        <img src="icons/edenplaza.jpg" style="width: 221px;"/>
+        <img src="icons/edenstarhotel.png" style="width: 221px;"/>
+        <img src="icons/fshop.jpg" style="width: 221px;"/>
+        <img src="icons/fsoft.jpg" style="width: 221px;"/>
+        <img src="icons/gopatel.png" style="width: 221px;"/>
+        <img src="icons/imgroup.png" style="width: 221px;"/>
+        <img src="icons/metropole.png" style="width: 221px;"/>
+        <img src="icons/nguyenkim.jpg" style="width: 221px;"/>
+        <img src="icons/pnc.png" style="width: 221px;"/>
+        <img src="icons/queenfingerhotel.png" style="width: 221px;"/>
+        <img src="icons/smartnet.png" style="width: 221px;"/>
+        <img src="icons/vienmaytinh.png" style="width: 221px;"/>
+        <img src="icons/vnp.jpg" style="width: 221px;"/>
     </div>
 </div>
 <div class="backtop">
