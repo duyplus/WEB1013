@@ -523,6 +523,13 @@ table {
     font-weight: 700;
     line-height: 22px;
 }
+.backtop{
+    background: #040c13!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
 .doitac{
     clear: both;
 }
@@ -547,18 +554,22 @@ table {
     background: #f7941d;
     width: 60px;
     bottom: 0;
-}
+}   
 .carousel {
     width: 70%;
     margin: 0px auto;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
-.slick-slide {
-    margin: 10px;
+.logo_doitac{
+    width: 170px !important;
+    padding-top: 40px;
+    padding-left: 50px;
 }
-.slick-slide img {
-    width: 100%;
-    margin: 0 25px;
-    object-fit: cover;
-    height: 70px;
-    padding-left: 30px;
+.logo_doitac1{
+    width: 120px !important;
+    padding-top: 40px;
+    padding-left: 50px;
 }
