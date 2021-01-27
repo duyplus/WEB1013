@@ -305,6 +305,7 @@ table {
 }
 .title a{
     text-decoration: none;
+    padding: 0 5px;
 }
 .title a:hover{
     text-decoration: none;
@@ -335,6 +336,7 @@ table {
 }
 .bbWrapper{
     box-sizing: border-box;
+    padding: 0 5px;
 }
 .footer {
     font-size: 12.5px;
@@ -523,7 +525,7 @@ table {
     font-weight: 700;
     line-height: 22px;
 }
-.backtop{
+.doitac_centainer{
     background: #040c13!important;
     color: white;
     display: flex;
@@ -564,12 +566,10 @@ table {
     position: relative;
 }
 .logo_doitac{
-    width: 170px !important;
-    padding-top: 40px;
-    padding-left: 50px;
+    width: 180px !important;
+    padding: 40px 25px 0 25px;
 }
 .logo_doitac1{
-    width: 120px !important;
-    padding-top: 40px;
-    padding-left: 50px;
+    width: 110px !important;
+    padding: 40px 25px 0 25px;
 }
