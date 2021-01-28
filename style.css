@@ -58,7 +58,6 @@ p {
 }
 .content{
     padding-right: 10px;
-    background-color: lightcyan;
 }
 .content .image {
     border: 1px solid black;
@@ -167,11 +166,10 @@ iframe[name=page] {
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {display: block;width: 100%;text-align: left;}
-    .sidebar a {float: left;}
     div.content {margin-left: 0;padding-right: 0;}
     .column, input[type=submit]{width: 80%;margin-top: 0;padding-top: 7px;}
     input[type=submit]{text-align: center;padding: 10px;display: block; margin-right: auto; margin-left: auto;}
-    input[type=text], select, textarea{width: 98%;padding: 10px 0 10px 10px;}
+    input[type=text], select, textarea{width: 95% !important; margin-left: 8px; padding: 12px 0 10px 15px !important;}
     div.list-post{width: auto;margin-left: 0;text-align: center;}
     div.list-post .title{padding-top: 10px;}
     .footer{display: none;text-align: center;}
@@ -179,8 +177,8 @@ iframe[name=page] {
     div.footer .column1{width: 100%;}
     div.container{width: 100%;padding:0;}
     div.article{width: 100%;}
-    div.aside{display: none;}
-    div.sidebar {display: block}
+    div.aside{width: 100%;padding: 0;}
+    div.sidebar{display: block}
     div.thumb{width: 100%;}
     div.thumb img {display: block; margin-left: auto; margin-right: auto; width: 70%;}
     body,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-family: Roboto, Arial;font-size: 100%;}
@@ -189,10 +187,53 @@ iframe[name=page] {
     div.d-block {display: block!important;}
     h4.entry-title-kn{text-align: center;}
     h4.entry-title{padding-top: 7px;}
-    span.nganh-hoc{display: block;text-align: center;height:auto;margin-left: auto; margin-right: auto;width: 90%;float: none;}
-    div.row .column{padding: 0 0 10px 0;width: 100%;}
+    div.info-nganh{padding-left: 35px;}
+    span.nganh-hoc{display: block;text-align: center;height:auto;margin-left: auto; margin-right: auto;width: 90%;}
+    div.row .column{padding: 0 0 10px 0;width: 92%;margin-left: 8px;}
     ul{padding-inline-start: 20px;font-size: 4.1vw;}
     td{padding-top: 10px;font-size: 4vw;}
+    div.email{padding-right: 9px;}
+    div.section{width: 100%;padding: 0; background: none;}
+    div.section .col:first-child{width: 100%; height: auto;text-align: center;}
+    .section .col {width: 50%;}
+    .section .description{padding: 0;}
+    .section .description h3{text-transform: uppercase;font-size: 22px; margin: 0;}
+    .section .description p{font-size: 14px;}
+    div.fpoly_container{padding: 0;}
+    div.fpoly_banner{min-height: 0;}
+    div.fpoly_counter{flex-flow: row wrap;display: flex;}
+    div.fpoly_icon img{width: 40px!important;}
+    div.fpoly_counter_item{display: block;}
+    div.fpoly_icon{text-align: center;}
+    div.fpoly_col{width: 50%; display: flex; justify-content: center; margin: 10px auto;}
+    div.fpoly_count{text-align: center; margin-top: 5px; font-size: 20px; margin-bottom: 0;}
+    div.fpoly_info{text-align: center; font-size: 14px;}
+    section.section_nganhhoc{padding: 0;}
+    figure.effect-lily figcaption > div{padding: 0 0 2em 0 !important;font-size: 15px; text-align: center;color: chartreuse;filter: blur(0.5px);}
+}
+.phone{
+    width: 40%;
+    float: left;
+}
+.email{
+    width: 50%;
+    float: right;
+    padding-left: 15px;
+}
+input:focus{
+    outline: none;
+}
+input[type=text], select, textarea{
+    line-height: 25px;
+    border-radius: 5px;
+    outline: none;
+    color: orange;
+    border: 1px solid orchid;
+}
+input[type=text]:hover, select:hover, textarea:hover{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 0 0 5px plum;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -232,11 +273,34 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
+    border: 1px solid orange;
+}
+td,th{
+    padding: 0.7rem;
+}
+td{
+    border-bottom: 1px solid orange;
+}
+th{
+    color: white;
+    background-color: orange;
+    border-color: white;
+    border-bottom-color: white;
+}
+td:hover{
+    background-color: rgb(248, 242, 242);
+}
+th:hover{
+    background-color: rgb(233, 165, 40);
 }
 .entry-title-kn{
     clear: both;
     font-size: 16px;
     padding-left: 15px;
+}
+.info-nganh{
+    text-align: center;
+    padding-left: 45px;
 }
 .nganh-hoc{
     float: left;
@@ -468,6 +532,7 @@ table {
     clear: both;
 }
 .fpoly_banner{
+    display: block !important;
     background: url(images/banner-counter.jpg) 0% 0% / cover no-repeat;
     box-sizing: border-box;
     min-height: 300px;
@@ -566,10 +631,23 @@ table {
     position: relative;
 }
 .logo_doitac{
-    width: 180px !important;
+    width: 140px !important;
     padding: 40px 25px 0 25px;
 }
 .logo_doitac1{
-    width: 110px !important;
+    width: 100px !important;
     padding: 40px 25px 0 25px;
+}
+/* ScrollBar */
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #F5F5F5;
+} 
+::-webkit-scrollbar-thumb{
+    background-color: #0ae;
+    border-radius: 10px;
 }
