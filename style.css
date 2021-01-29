@@ -72,10 +72,6 @@ p {
     padding-top: 19px;
     background-color: lightcyan;
 }
-iframe[name=page] {
-    width: 100%;
-    min-height: 400px;
-}
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -218,7 +214,7 @@ iframe[name=page] {
 .email{
     width: 50%;
     float: right;
-    padding-left: 15px;
+    padding-left: 26px;
 }
 input:focus{
     outline: none;
