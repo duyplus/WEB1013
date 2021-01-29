@@ -231,20 +231,24 @@ input[type=text]:hover, select:hover, textarea:hover{
     border-radius: 5px;
     box-shadow: 0 0 5px plum;
 }
-input[type=text], select, textarea {
+input[type=text], select, textarea{
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 15px;
     resize: vertical;
 }
+select{
+    padding: 12px !important;
+}
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 30px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 input[type=submit]:hover {
     background-color: #45a049;
