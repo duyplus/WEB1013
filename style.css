@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, sans-serif;
     position: relative;
     font-size: 14px;
     font-weight: 400;
@@ -162,7 +162,7 @@ p {
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {display: block;width: 100%;text-align: left;}
-    div.content {margin-left: 0;padding-right: 0;}
+    div.content {margin-left: auto;margin-right: auto;padding: 0 7px;}
     .column, input[type=submit]{width: 80%;margin-top: 0;padding-top: 7px;}
     input[type=submit]{text-align: center;padding: 10px;display: block; margin-right: auto; margin-left: auto;}
     input[type=text], select, textarea{width: 95% !important; margin-left: 8px; padding: 12px 0 10px 15px !important;}
