@@ -214,7 +214,7 @@ p {
 .email{
     width: 50%;
     float: right;
-    padding-left: 26px;
+    padding-left: 25px;
 }
 input:focus{
     outline: none;
@@ -623,7 +623,7 @@ th:hover{
     bottom: 0;
 }   
 .carousel {
-    width: 70%;
+    width: 60%;
     margin: 0px auto;
     padding-bottom: 50px;
     margin-left: auto;
@@ -631,12 +631,8 @@ th:hover{
     position: relative;
 }
 .logo_doitac{
-    width: 140px !important;
-    padding: 40px 25px 0 25px;
-}
-.logo_doitac1{
-    width: 100px !important;
-    padding: 40px 25px 0 25px;
+    width: 140px;
+    padding: 40px 30px 0 30px;
 }
 /* ScrollBar */
 ::-webkit-scrollbar-track{
