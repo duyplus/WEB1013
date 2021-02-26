@@ -60,7 +60,6 @@ p {
     padding-right: 10px;
 }
 .content .image {
-    border: 1px solid black;
     transition: .5s ease;
 }
 .content .image:hover {
@@ -373,20 +372,7 @@ th:hover{
 }
 .title a:hover{
     text-decoration: none;
-    background: rgba(255, 253, 160, 1);
-    background: -webkit-linear-gradient( left, #3a3d3d 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
-    -webkit-background-clip: text;
-    -ms-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -ms-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-emphasis-color: transparent;
-    -webkit-animation-name: masked-animation;
-    -webkit-animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+    color: red;
 }
 @-webkit-keyframes masked-animation {
     0% {background-position: 0 0;}
