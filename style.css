@@ -82,7 +82,7 @@ p {
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 .active {
     background-color: #4CAF50;
@@ -96,7 +96,7 @@ p {
     overflow: hidden;
 }
 .dropdown .dropbtn {
-    font-size: 17px;    
+    font-size: 18px;    
     border: none;
     color: white;
     padding: 16px;
@@ -207,7 +207,7 @@ p {
     figure.effect-lily figcaption > div{padding: 0 0 2em 0 !important;font-size: 15px; text-align: center;color: chartreuse;filter: blur(0.5px);}
 }
 .phone{
-    width: 40%;
+    width: 44.5%;
     float: left;
 }
 .email{
@@ -219,24 +219,21 @@ input:focus{
     outline: none;
 }
 input[type=text], select, textarea{
+    width: 100%;
+    padding: 8px;
+    color: limegreen;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 15px;
     line-height: 25px;
     border-radius: 5px;
+    resize: vertical;
     outline: none;
-    color: orange;
-    border: 1px solid orchid;
 }
 input[type=text]:hover, select:hover, textarea:hover{
     border: 1px solid blueviolet;
     border-radius: 5px;
     box-shadow: 0 0 5px plum;
-}
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 15px;
-    resize: vertical;
 }
 select{
     padding: 12px !important;
@@ -607,7 +604,7 @@ th:hover{
     background: #f7941d;
     width: 60px;
     bottom: 0;
-}   
+}
 .carousel {
     width: 60%;
     margin: 0px auto;
